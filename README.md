@@ -33,13 +33,9 @@ Validation and error handling middleware
 setup :
 node js version  v22.14.0
 mongo Db atlas
-tailwind version : @tailwindcss/cli@4.1.16
-│ ├─┬ @tailwindcss/node@4.1.16
-│ │ └── tailwindcss@4.1.16
-│ └── tailwindcss@4.1.16
-├─┬ react-scripts@5.0.1
-│ └── tailwindcss@3.4.18 deduped
-└── tailwindcss@3.4.18
+tailwind version 
+tailwindcss@3.4.18
+
 
 
 terminal installation:
