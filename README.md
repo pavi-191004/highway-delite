@@ -61,6 +61,19 @@ npx ts-node src/data/seedData.ts(to just clarify)
 promo code is SAVE10 , FLAT100
 
 
+vercel deployment : 
+in backend make sure you add frontend vercel link: app.use(cors({
+  origin: [
+    "http://localhost:3000", // for local development
+    "https://highway-delite-j5u7.vercel.app" // your Vercel frontend
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
+In frontend make sure backend url : axios.get("https://bookit-backend.onrender.com/experiences")
+
+
+
 
 
 
